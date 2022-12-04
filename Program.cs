@@ -11,3 +11,6 @@ for (int i=0; i<array.Length; i++)
         quant++; 
     }
 }
+if (quant==0) 
+Console.WriteLine("Нет элементов требуемого размера");
+Console.WriteLine();
